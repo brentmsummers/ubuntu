@@ -1,0 +1,26 @@
++---------------------------
+| Instructions for file prep
++---------------------------
+
+To prep a file for translation, do the following:
+
+    1. Place source file(s) that translation into the 
+       “source” folder. `translation/source/`
+
+    2. Run script with command 
+       `python3 To_Translation_Prep.py`
+
+    3. A prepped file will now be ready in the 
+       `to-translation` folder.
+
+After file has returned from translation, do the following:
+
+    1. Place the translated file in the "translated" 
+       folder. `translation/translated/`
+
+    2. Run script `python3 From_Translation_Prep.py`
+
+    3. The translated and formatted file are now ready 
+       to be delivered to the client in the 
+       `for-delivery` folder.
+
